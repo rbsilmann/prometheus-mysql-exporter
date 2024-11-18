@@ -46,16 +46,16 @@ docker compose up -d
    - **Senha:** `admin`  
 
 ### 2. Configurar o Data Source Prometheus  
-1. Navegue até **Configuration > Data Sources**.  
+1. Navegue até **Connections > Add new datasource > Prometheus**.  
 2. Adicione um novo Data Source com as seguintes configurações:  
    - **Tipo:** Prometheus  
-   - **URL:** `http://prometheus:9090`  
+   - **Prometheus server URL:** `http://prometheus:9090`  
 
 ### 3. Importar o Dashboard  
-1. Vá até **Dashboards > Import**.  
+1. Vá até **Dashboards > New > Import**.  
 2. Insira o **ID do Dashboard**: `14057`.  
 3. Confirme a importação e selecione o Data Source configurado anteriormente.  
 
 ---
 
-## 🎉 Pronto!  
+## 🎉 Pronto!
